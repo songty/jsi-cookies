@@ -1,5 +1,6 @@
 var path = require('path');
 var express = require('express');
+var cookieParser = require('cookie-parser');
 var app = express();
 app.get('/', function(req, res){
   //some server code related to cookies
